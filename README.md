@@ -1,6 +1,10 @@
 # daisyui-snippets README
 
+
+![Start writing Code snipped with dui](image.png)
+
 ## Shortcuts 
+
 ```
 
         "duibtn": "Buttons with brand colors"
@@ -165,29 +169,21 @@
 ```
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 ![Start writing Code snipped with dui](image.png)
-For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\)
-
+> Supports latest DaisyUI components
+> Updated Weekly
+> Open Source
+> Compatiable with JS,VUE,React.
 > Contains 53+ Latest Code snippets from Daisy UI,for blazing fast development ⚡
 
 ## Requirements
 
-> VSCODE Supported
-> Works with Javascript as of now.
+None
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+None
 
 ## Known Issues
 
@@ -200,6 +196,10 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 Initial release of Daisy UI Snippets 
+
+### 1.1.0
+
+Added Support for Vue/Javascript/React
 
 ---
 

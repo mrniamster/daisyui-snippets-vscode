@@ -1,13 +1,19 @@
 {
   "name": "daisyui-snippets",
+  "publisher": "mrniamster",
+  "publishConfig": {
+    "tag": "daisyUI,snippets,daisyUI extension,daisyUI latest"
+  },
+  "icon": "128.ico",
   "displayName": "daisyui snippets",
   "description": "Helps to faster build daisyui snippets on the go ⚡",
-  "version": "0.0.1",
-
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.79.0"
   },
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/mrniamster/daisyui-snippets-vscode.git"
+  },
   "categories": [
     "Snippets"
   ],
@@ -15,6 +21,10 @@
     "snippets": [
       {
         "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/javascript.json"
       }
     ]
