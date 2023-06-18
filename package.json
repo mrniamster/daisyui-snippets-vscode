@@ -1,0 +1,22 @@
+{
+  "name": "daisyui-snippets",
+  "displayName": "daisyui snippets",
+  "description": "Helps to faster build daisyui snippets on the go ⚡",
+  "version": "0.0.1",
+
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "repository": {},
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  }
+}
