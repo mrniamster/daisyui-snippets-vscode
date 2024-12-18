@@ -1,32 +1,60 @@
 {
   "name": "daisyui-snippets",
-  "publisher": "mrniamster",
-  "publishConfig": {
-    "tag": "daisyUI,snippets,daisyUI extension,daisyUI latest"
-  },
-  "icon": "128.ico",
-  "displayName": "daisyui snippets",
-  "description": "Helps to faster build daisyui snippets on the go ⚡",
+  "displayName": "DaisyUI Snippets",
+  "description": "VS Code snippets for DaisyUI components",
   "version": "1.1.0",
+  "publisher": "mrniamster",
   "engines": {
-    "vscode": "^1.79.0"
-  },
-  "repository": {
-    "url": "https://github.com/mrniamster/daisyui-snippets-vscode.git"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Snippets"
   ],
+  "keywords": [
+    "daisyui",
+    "tailwindcss",
+    "snippets",
+    "html",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrniamster/daisyui-snippets-vscode"
+  },
+  "icon": "image.png",
+  "galleryBanner": {
+    "color": "#1A1A1A",
+    "theme": "dark"
+  },
   "contributes": {
     "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/javascript.json"
+      },
       {
         "language": "javascript",
         "path": "./snippets/javascript.json"
       },
       {
-        "language": "html",
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/javascript.json"
       }
     ]
-  }
+  },
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "license": "MIT"
 }

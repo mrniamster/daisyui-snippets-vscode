@@ -1,171 +1,54 @@
-# daisyui-snippets README
+# DaisyUI Snippets for VS Code
 
+Visual Studio Code snippets for DaisyUI components.
 
-![Start writing Code snipped with dui](image.png)
+## What's New 🎉
 
-## Shortcuts 
+### v1.1.0
+- Added new components:
+  - Timeline (`duitimeline`)
+  - Skeleton (`duiskeleton`) 
+  - Image Comparison (`duidiff`)
+  - Theme Controller (`duitheme`)
+  - Join Vertical (`duijoin-vertical`)
+- Added colored loading variants
+- Removed SVG icons for better customization
+- Fixed indentation issues
+- Improved accessibility with ARIA labels
 
-```
+## Features
 
-        "duibtn": "Buttons with brand colors"
+All snippets start with `dui` prefix. For example:
+- `duibtn` - Button component
+- `duicard` - Card component
+- `duimodal` - Modal component
+// ...existing features...
 
-    
-        "duidropdown": "Dropdown can open a menu or any other element when the button is clicked."
-    
+## Usage
 
-        "duimodal": "Modal goes bottom on mobile screen and goes middle on desktop"
-    
+Type `dui` and press `Ctrl+Space` to see all available snippets.
 
-        "duiswap": "# Activate using class name instead of checkbox"
-    
+## Available Snippets
 
-        "duiaccord": "# Accordion with arrow icon"
-    
-    
-        "duialert": "Alert"
-    
+| Prefix | Description |
+|--------|-------------|
+| duibtn | Button |
+| duicard | Card |
+| duimodal | Modal |
+| duitimeline | Timeline |
+| duiskeleton | Skeleton |
+| duidiff | Image Comparison |
+| duitheme | Theme Controller |
+// ...rest of table...
 
-        "duiavatar": "Avatar"
-    
-    
-        "duibadge": "Badge"
-    
-    
-        "duicard": "Card"
-    
-    
-        "duicard-overlay": "Card-Overlay"
-    
-    
-        "duichat": "Chat"
-    
-    
-        "duicollapse": "Collapse"
-    
-    
-        "duicountdown": "Countdown"
-    
-    
-        "duikbd": "Kbd"
-    
-    
-        "duiloading-dots": "Loading-dots"
-    
-    
-        "duiloading-spinner": "Loading-spinner"
-    
-    
-        "duiloading-ring": "Loading-ring"
-    
-    
-        "duiprog": "Progress"
-    
-    
-        "duiprog-radial": "Progress-radial"
-    
-    
-        "duistat": "Stats"
-    
-    
-        "duitable": "Table"
-    
-    
-        "duitooltip": "Tooltip"
-    
-    
-        "duicheckbox": "Checkbox"
-    
-    
-        "duifile": "File-Input"
-    
-    
-        "duiradio": "Radio"
-    
-    
-        "duirange": "Range"
-    
-    
-        "duirate-star": "Rating-star"
-    
-    
-        "duirate-heart": "Rating-heart"
-    
-    
-        "duiselect": "Select"
-    
-    
-        "duiinput": "Input"
-    
-    
-        "duitextarea": "TextArea"
-    
-    
-        "duitoggle": "Toggle"
-    
-    
-        "duiartboard": "Artboard"
-    
-    
-        "duidivider": "Divider"
-    
-    
-        "duidrawer": "Drawer"
-    
-    
-        "duifooter": "Footer"
-    
-    
-        "duihero": "Hero"
-    
-    
-        "duiindicator": "Indicator"
-    
-    
-        "duijoin": "Join"
-    
-    
-        "duimask": "Mask"
-    
-    
-        "duistack": "Stack"
-    
-    
-        "duitoast": "Toast"
-    
-    
-        "duibread": "BreadCrumbs"
-    
-    
-        "duibtm-nav": "Bottom-Navigation"
-    
-    
-        "duilink": "Link"
-    
-    
-        "duimenu": "Menu"
-    
-    
-        "duinav": "Navbar"
-    
-    
-        "duipage": "Pagination"
-    
-    
-        "duisteps": "Steps"
-    
-    
-        "duitab": "Tab"
-    
-    
-        "duicode": "Code"
-    
-    
-        "duiphone": "Phone"
-    
-    
-        "duiwindow": "Window"
-    
+## Requirements
 
+- DaisyUI v3.0.0 or higher
+- Tailwind CSS v3.0.0 or higher
+
+## License
+
+MIT
 ```
 ## Features
 
