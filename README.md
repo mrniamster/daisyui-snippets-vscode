@@ -1,10 +1,12 @@
 # DaisyUI Snippets for VS Code
 
-Visual Studio Code snippets for DaisyUI components.
+Visual Studio Code snippets for LATEST DaisyUI 4  components 💦
+
+<a href="https://www.buymeacoffee.com/o1VOpX3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## What's New 🎉
 
-### v1.1.0
+### v1.2.0
 - Added new components:
   - Timeline (`duitimeline`)
   - Skeleton (`duiskeleton`) 
@@ -15,6 +17,10 @@ Visual Studio Code snippets for DaisyUI components.
 - Removed SVG icons for better customization
 - Fixed indentation issues
 - Improved accessibility with ARIA labels
+
+### v1.1.0
+- Added Support for Vue/Javascript/React
+- Initial release with basic components
 
 ## Features
 
@@ -94,3 +100,4 @@ Added Support for Vue/Javascript/React
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+```

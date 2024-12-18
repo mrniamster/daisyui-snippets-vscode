@@ -2,7 +2,7 @@
   "name": "daisyui-snippets",
   "displayName": "DaisyUI Snippets",
   "description": "VS Code snippets for DaisyUI components",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "publisher": "mrniamster",
   "engines": {
     "vscode": "^1.60.0"
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/mrniamster/daisyui-snippets-vscode"
   },
-  "icon": "image.png",
+  "icon": "128.ico",
   "galleryBanner": {
     "color": "#1A1A1A",
     "theme": "dark"
